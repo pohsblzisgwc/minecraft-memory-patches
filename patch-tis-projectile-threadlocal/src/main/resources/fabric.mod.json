@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "patch_tis_projectile_threadlocal",
+  "version": "1.0.1",
+  "name": "Patch: TIS Projectile ThreadLocal Leak",
+  "description": "Prevents TIS projectile constructor context from retaining entities on idle threads while preserving Carpet trajectory helpers.",
+  "environment": "server",
+  "license": "MIT",
+  "mixins": [
+    "patch_tis_projectile_threadlocal.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "carpet": "26.3+v260915",
+    "carpet-tis-addition": "1.82.4"
+  }
+}

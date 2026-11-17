@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "patch_confluxmap_chunkstate_churn",
+  "version": "1.0.1",
+  "name": "Patch: ConfluxMap ChunkLoadState Churn",
+  "description": "Replaces LinkedHashSet remove+readd churn and repeated Optional/Lambda/TreeMap allocations in ConfluxMap ChunkLoadStateService with a zero-allocation ring buffer and ticket-level change filter.",
+  "environment": "server",
+  "license": "MIT",
+  "mixins": [
+    "patch_confluxmap_chunkstate_churn.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "confluxmap": "0.1.12"
+  }
+}

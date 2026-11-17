@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "patch_fakeplayer_network_leak",
+  "version": "1.0.1",
+  "name": "Patch: FakePlayer Network Leak",
+  "description": "Ensures Carpet FakeClientConnection / synthetic EmbeddedChannel disconnects invoke Fabric Networking handleDisconnect() and unregister from GlobalReceiverRegistry.",
+  "environment": "server",
+  "license": "MIT",
+  "mixins": [
+    "patch_fakeplayer_network_leak.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-networking-api-v1": "6.3.8+fcdff87f5d"
+  }
+}

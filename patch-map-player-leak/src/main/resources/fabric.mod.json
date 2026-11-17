@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "patch_map_player_leak",
+  "version": "1.0.0",
+  "name": "Patch: Map Player Leak",
+  "description": "Evicts removed/disconnected players from MapItemSavedData immediately and via amortized sweeps while preserving Lithium entity.framed_maps optimization.",
+  "environment": "server",
+  "license": "MIT",
+  "mixins": ["patch_map_player_leak.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25"
+  }
+}

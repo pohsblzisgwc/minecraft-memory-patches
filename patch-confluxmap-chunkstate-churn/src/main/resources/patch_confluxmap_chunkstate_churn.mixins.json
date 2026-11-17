@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "dev.mempatch.confluxchurn.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ChunkMapChunkHolderInvoker",
+    "ChunkLoadStateServiceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

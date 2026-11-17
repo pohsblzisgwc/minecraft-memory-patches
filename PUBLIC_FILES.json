@@ -1,0 +1,214 @@
+{
+  "schema": 1,
+  "policy": "exact-file-allowlist; PUBLIC_FILES.json is the sole self-exempt metadata file",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "9fdae4ee3622441e30b374b987c022fce75ebb6fca41b5f72874065dd594543e"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "4f3eff460877a179ac8edde3b1ac578c44e20cd6a4f138fcd827cfdb4dfc5c0d"
+    },
+    {
+      "path": "README.md",
+      "sha256": "563d6f83b501a19f0cafc38643079a7081339a6f4bc93c11d9273dedacf17978"
+    },
+    {
+      "path": "SHA256SUMS",
+      "sha256": "de85a26ffbc481d782c9fe21618f1f0639472e9ccdbd27fd4855afc30d2fe441"
+    },
+    {
+      "path": "build-all.sh",
+      "sha256": "76dce703b0a6e36b5f645f34de7c78ae8378a8f64971ebeaa4f39c877816ff4d"
+    },
+    {
+      "path": "dist/patch-confluxmap-chunkstate-churn-1.0.1.jar",
+      "sha256": "b2a075ac6e9fe62d2805d4e12df456ffc4c120a8aba3bb7997bf4bce68084556"
+    },
+    {
+      "path": "dist/patch-fakeplayer-network-leak-1.0.1.jar",
+      "sha256": "19926b8a0a96f5f9658d35dbc65b1a9d63b10062cc464461613cf413b16f2fbe"
+    },
+    {
+      "path": "dist/patch-ledger-queue-guard-1.0.2.jar",
+      "sha256": "51859fa58af5e1399b6ad519975ab7564d0ed2ae3d0f9d489f5fe3c35616d4ac"
+    },
+    {
+      "path": "dist/patch-map-player-leak-1.0.0.jar",
+      "sha256": "185a6ef90a915ae14692fb08a78adb18e8a1750b5c5c18026666ffe49f4cab1e"
+    },
+    {
+      "path": "dist/patch-tis-projectile-threadlocal-1.0.1.jar",
+      "sha256": "d26838f8737a5f3f9fd93187676d6972979c171c8c51028e4bfd603851b14fe5"
+    },
+    {
+      "path": "docs/ANALYSIS.zh-CN.md",
+      "sha256": "027c60c700974a9ce8dcef9b6bb13a91167bc9113e86f33480e17b35da380772"
+    },
+    {
+      "path": "docs/PRIVACY.zh-CN.md",
+      "sha256": "673761103f77922062b41750d7669d1c29c9478a927e34ac7a01428796ac265e"
+    },
+    {
+      "path": "docs/VALIDATION.zh-CN.md",
+      "sha256": "6ada4214b6252116d0e91d89ad40f24eed16ca30de0875b66c4fdc03eea8f433"
+    },
+    {
+      "path": "patch-confluxmap-chunkstate-churn/build.sh",
+      "sha256": "9709d668c7f8646898db920079d75a52f9395ce5eaa84ec5c67b2cc6f357392d"
+    },
+    {
+      "path": "patch-confluxmap-chunkstate-churn/src/main/java/dev/mempatch/confluxchurn/ChunkStateDimBucket.java",
+      "sha256": "6e757c6733ecfc3f1f6473f7b896d6a9e736c7b49dc7013ee6134d62d817c25b"
+    },
+    {
+      "path": "patch-confluxmap-chunkstate-churn/src/main/java/dev/mempatch/confluxchurn/ChunkStateWatchEntry.java",
+      "sha256": "4a79c80b15818e88137fa56fde1071190cc0c780d45dd5a03c2df4d0e4e992c6"
+    },
+    {
+      "path": "patch-confluxmap-chunkstate-churn/src/main/java/dev/mempatch/confluxchurn/mixin/ChunkLoadStateServiceMixin.java",
+      "sha256": "36e7d146236eb43f62800d7e9af747e1791e984c09dc4e411bdccf38d732d2d6"
+    },
+    {
+      "path": "patch-confluxmap-chunkstate-churn/src/main/java/dev/mempatch/confluxchurn/mixin/ChunkMapChunkHolderInvoker.java",
+      "sha256": "b727c02c7cec62e6bc6501429378dc9dd3b8d64abf012154c7673e0f79fd5b67"
+    },
+    {
+      "path": "patch-confluxmap-chunkstate-churn/src/main/resources/fabric.mod.json",
+      "sha256": "8382e288ab9c4966f66ce042ddc2c1c9e01966ef58cb569250aef1cfd5060eaa"
+    },
+    {
+      "path": "patch-confluxmap-chunkstate-churn/src/main/resources/patch_confluxmap_chunkstate_churn.mixins.json",
+      "sha256": "c110fc24cbacd56f5537db9dfaba0e34a4b1a83a70500f3502cc9b2e111f8de5"
+    },
+    {
+      "path": "patch-fakeplayer-network-leak/build.sh",
+      "sha256": "09dbc821a358351bd6e7418bf77bfa7f4f3aae036861ac0147fd01937607bce7"
+    },
+    {
+      "path": "patch-fakeplayer-network-leak/src/main/java/dev/mempatch/fakeplayer/mixin/ConnectionStateAccessor.java",
+      "sha256": "c0ecb6cd3a679d253151b34d19cde920223e46544d0a2899f4ad10cf031cf82b"
+    },
+    {
+      "path": "patch-fakeplayer-network-leak/src/main/java/dev/mempatch/fakeplayer/mixin/FakePlayerDisconnectMixin.java",
+      "sha256": "0d86b3c6b4dfc71c3beab07e07eae623422d38a3f1c18c32737e900c1e513428"
+    },
+    {
+      "path": "patch-fakeplayer-network-leak/src/main/java/dev/mempatch/fakeplayer/mixin/ServerCommonConnectionAccessor.java",
+      "sha256": "d457e0bdad2fc1d2ceb609a7856ad7aecd5f6b04ae264e70e8e746f810bcfa88"
+    },
+    {
+      "path": "patch-fakeplayer-network-leak/src/main/resources/fabric.mod.json",
+      "sha256": "7fe93589108c3b7ec0d91818594a4a529a726a5301ea8848147b278e2ed903a5"
+    },
+    {
+      "path": "patch-fakeplayer-network-leak/src/main/resources/patch_fakeplayer_network_leak.mixins.json",
+      "sha256": "5f6178e676385d5e1c3da849305c74b4a24b09c14756e96b2f48a8c2c2d48cb6"
+    },
+    {
+      "path": "patch-ledger-queue-guard/build.sh",
+      "sha256": "4922d14d09fd04bf4a924bb8052285a28cac9c40dc581fcc191f5399a4c9d35f"
+    },
+    {
+      "path": "patch-ledger-queue-guard/src/main/java/dev/mempatch/ledgerqueue/LedgerQueueGuardConfig.java",
+      "sha256": "18cbdd39115c9e33c1a043f9c79b25ca69bd12bf2faeae131ac4d4ee5866591c"
+    },
+    {
+      "path": "patch-ledger-queue-guard/src/main/java/dev/mempatch/ledgerqueue/LedgerSmallDatabaseRecovery.java",
+      "sha256": "5e675ea6c6348636f5c4f4b24fea4989fab2d9bde25d305be53015129b9e0f1e"
+    },
+    {
+      "path": "patch-ledger-queue-guard/src/main/java/dev/mempatch/ledgerqueue/mixin/ActionQueueServiceGuardMixin.java",
+      "sha256": "eb4b91a254d4cbcbad8e9c9e25922b2ff7445c0fb6ac38bbaae923feef8678b1"
+    },
+    {
+      "path": "patch-ledger-queue-guard/src/main/java/dev/mempatch/ledgerqueue/mixin/DatabaseStartupRecoveryMixin.java",
+      "sha256": "433cb63e6ceac4fbb5a470aad96b76ce7fce3318eab78ff18e8501e85bf438ca"
+    },
+    {
+      "path": "patch-ledger-queue-guard/src/main/resources/fabric.mod.json",
+      "sha256": "efe81bfa14e4485cc80ee8f9b221952f394d466830fa058d0d858a01741e863d"
+    },
+    {
+      "path": "patch-ledger-queue-guard/src/main/resources/patch_ledger_queue_guard.mixins.json",
+      "sha256": "1f521ab4554b3e5edb1ab8530dbea21e280439a8016cfb7a4a6d3a4352bc720e"
+    },
+    {
+      "path": "patch-map-player-leak/build.sh",
+      "sha256": "3769f2e226c4df174b688cb875dc0d45f6bc764974ff6268c69e8ccc57f7b5d8"
+    },
+    {
+      "path": "patch-map-player-leak/src/main/java/dev/mempatch/mapleak/EntityTrackedMapsDuck.java",
+      "sha256": "49b7964b5ee0376968ea62e8c98928adcfb9ce3e407491757a057e68b16704bc"
+    },
+    {
+      "path": "patch-map-player-leak/src/main/java/dev/mempatch/mapleak/MapItemSavedDataAccess.java",
+      "sha256": "c870818a46be14cb6d007088335a7811410e33f3c4fcf311c7498ab9d1ea5ea3"
+    },
+    {
+      "path": "patch-map-player-leak/src/main/java/dev/mempatch/mapleak/mixin/EntityRemovedMapCleanupMixin.java",
+      "sha256": "75e2572295b36788934d534893ce6e9263d585dd1631528985c78f52fae6b1f0"
+    },
+    {
+      "path": "patch-map-player-leak/src/main/java/dev/mempatch/mapleak/mixin/MapItemSavedDataCleanupMixin.java",
+      "sha256": "44adc75a5ccf8ceb0bb74a106c6e19ac8045f588aa9038d2b8461db6ddf66f34"
+    },
+    {
+      "path": "patch-map-player-leak/src/main/java/dev/mempatch/mapleak/mixin/PlayerTrackedMapsMixin.java",
+      "sha256": "2be2169e80344f0b079637fc27d610aec2c3297fff3c0575d87ff2996a40debe"
+    },
+    {
+      "path": "patch-map-player-leak/src/main/resources/fabric.mod.json",
+      "sha256": "b3f9afd2b141e120e9347ce49cd0142387c90d5e9680ce00125b386e116d3baf"
+    },
+    {
+      "path": "patch-map-player-leak/src/main/resources/patch_map_player_leak.mixins.json",
+      "sha256": "0230a71fd11ed60c79e9fcde85dadd98e18238ae7f3aefcf5228b6d8d7db1d9e"
+    },
+    {
+      "path": "patch-tis-projectile-threadlocal/build.sh",
+      "sha256": "2d988e6479a996cd32510bf59836840312ce30d0d410e87f9f321daf4f5c3217"
+    },
+    {
+      "path": "patch-tis-projectile-threadlocal/src/main/java/dev/mempatch/tisprojectile/ProjectileContextThreadLocal.java",
+      "sha256": "15d2e2c0734ca784febb66d868d0cc8272cb0936ebf9f8de51938ad7e0290bc0"
+    },
+    {
+      "path": "patch-tis-projectile-threadlocal/src/main/java/dev/mempatch/tisprojectile/mixin/TrajectoryLoggerUtilMixin.java",
+      "sha256": "6142419c7cfe48a6637f0ca45b9c4ebefe49c3a9028f281d9f9c70cdf4243d19"
+    },
+    {
+      "path": "patch-tis-projectile-threadlocal/src/main/resources/fabric.mod.json",
+      "sha256": "33126b9076100667768e802e2efa3997ac42309d1cd05ff909535a0e0b23b510"
+    },
+    {
+      "path": "patch-tis-projectile-threadlocal/src/main/resources/patch_tis_projectile_threadlocal.mixins.json",
+      "sha256": "487cf016ba34f9087d8991e88d01afe34bf23f69ccf9f3a0c3b63495cb1e5ae3"
+    },
+    {
+      "path": "scripts/check-publication.py",
+      "sha256": "46c752d7747fc420b13dc0595380fea1cfe3e8175de529ee412c000e1476ded4"
+    },
+    {
+      "path": "tests/database-recovery/RecoveryTest.java",
+      "sha256": "0f3b5a59c3f5dda95cdc6a5d721476e5b40a998e97f4c4fe56deafef6bcc8e62"
+    },
+    {
+      "path": "tests/database-recovery/verify.sh",
+      "sha256": "5667b58828ac9fb762bb119333f9a81806b87c6eaa665daeda68485561debe81"
+    },
+    {
+      "path": "tests/verify-harness/src/main/java/dev/mempatch/verify/VerifyHarnessMod.java",
+      "sha256": "518741599859ea86abba359a9faafd0b4885632b1dfc17240d32cb8f7185bb2a"
+    },
+    {
+      "path": "tests/verify-harness/src/main/resources/fabric.mod.json",
+      "sha256": "2c7cd7d758fe8e8d7f47f7e32f8b62d36f7368283cdf8cbc04389f019d22c4df"
+    },
+    {
+      "path": "tests/verify-harness/verify-all.sh",
+      "sha256": "ba44eab40b36ec0e7bddd7bec95d0b5a24653bf6b64c74670c0160f50c6dd7b3"
+    }
+  ]
+}

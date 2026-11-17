@@ -1,0 +1,5 @@
+b2a075ac6e9fe62d2805d4e12df456ffc4c120a8aba3bb7997bf4bce68084556  dist/patch-confluxmap-chunkstate-churn-1.0.1.jar
+19926b8a0a96f5f9658d35dbc65b1a9d63b10062cc464461613cf413b16f2fbe  dist/patch-fakeplayer-network-leak-1.0.1.jar
+51859fa58af5e1399b6ad519975ab7564d0ed2ae3d0f9d489f5fe3c35616d4ac  dist/patch-ledger-queue-guard-1.0.2.jar
+185a6ef90a915ae14692fb08a78adb18e8a1750b5c5c18026666ffe49f4cab1e  dist/patch-map-player-leak-1.0.0.jar
+d26838f8737a5f3f9fd93187676d6972979c171c8c51028e4bfd603851b14fe5  dist/patch-tis-projectile-threadlocal-1.0.1.jar

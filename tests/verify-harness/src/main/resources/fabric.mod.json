@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "patch_verify_harness",
+  "version": "1.0.0",
+  "name": "Patch Verification Harness",
+  "environment": "*",
+  "license": "MIT",
+  "entrypoints": {
+    "main": ["dev.mempatch.verify.VerifyHarnessMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "carpet": "*",
+    "carpet-tis-addition": "*",
+    "confluxmap": "*",
+    "ledger": "*",
+    "lithium": "*"
+  }
+}
