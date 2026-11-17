@@ -38,3 +38,7 @@ RECOVERY_FIXTURE=missing DROP_OLDEST=true bash tests/verify-harness/verify-all.s
 ## 尚未验证
 
 不包含长时间生产负载、所有可能的构造异常、所有地图并发与重生路径、所有动态维度重排，也未独立复算全部堆统计。不承诺特定内存降低数值、TPS 提升或对未来模组版本兼容。
+
+## ConfluxMap补充实验
+
+新增三种变体的线程分配/组件耗时测量，以及原版与较新版的队列滞留复现，方法与限制见 [补充报告](CONFLUX_RECHECK.zh-CN.md)。大规模轮询场景采用同一holder夹具，不能当作真实加载上万个区块的生产MSPT或GC耗时。公开聚合数据位于 `docs/benchmarks/`；原始日志不上传。本次文档更新未改动补丁源码或JAR。

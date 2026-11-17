@@ -88,3 +88,12 @@
 G1 默认使用自适应 IHOP，不能把启动参数的 15% 当作长期固定阈值；Oracle GraalVM 删除 EnableJVMCI 参数也不保证改用 C2。代码修复与 JVM 调参应分开，在同类负载下对比 GC 后存活堆、暂停、分配率、队列长度和引用集合基线。不要同时更改大量参数后把全部变化归给补丁。
 
 参考：[Oracle JDK 25 G1](https://docs.oracle.com/en/java/javase/25/gctuning/garbage-first-g1-garbage-collector1.html)、[GraalVM 编译器选项](https://www.graalvm.org/latest/reference-manual/java/options/)、[SQLite WAL](https://sqlite.org/wal.html)。
+
+## 补充更正：ConfluxMap实测与GC统计口径
+
+后续复测与统计口径说明见 [ConfluxMap复测补充](CONFLUX_RECHECK.zh-CN.md)。本节作为追加说明，保留前文与提交历史。
+
+- 原记录可核对的约147.49/411.72 MiB是约35.8%的快照死对象估算字节比例，不是GC耗时比例；“GC的44%”缺少可核对的分母和时间测量，不作为结论。
+- 受控稳态实验中，原版每tick检查2048项约分配144 KiB，按20 TPS折算2.81 MiB/s；本机组件耗时约0.18 ms/tick。现有补丁显著降低此路径分配，但组件耗时也不能用来推算GC耗时。
+- 0.1.12、0.1.16和0.1.17-rc.1的三个相关核心class相同，较新原版未优化该轮转算法。另复现无地图需求时已卸载键的延迟清理，现有补丁未覆盖该队列问题。
+- 本次没有测量生产GC暂停收益，也不证明生产已部署补丁。

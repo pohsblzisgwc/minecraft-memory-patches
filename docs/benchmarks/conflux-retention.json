@@ -1,0 +1,110 @@
+[
+  {
+    "stage": "unique2000_after_unload",
+    "loaded": 0,
+    "refreshDeque": 2000,
+    "refreshSet": 2000,
+    "dirtyDeque": 2000,
+    "dirtySet": 0,
+    "variant": "original"
+  },
+  {
+    "stage": "unique2000_no_demand_1000_ticks",
+    "loaded": 0,
+    "refreshDeque": 2000,
+    "refreshSet": 2000,
+    "dirtyDeque": 2000,
+    "dirtySet": 0,
+    "variant": "original"
+  },
+  {
+    "stage": "unique2000_with_demand_100_ticks",
+    "loaded": 0,
+    "refreshDeque": 0,
+    "refreshSet": 0,
+    "dirtyDeque": 0,
+    "dirtySet": 0,
+    "variant": "original"
+  },
+  {
+    "stage": "same_position2000_after_unload",
+    "loaded": 0,
+    "refreshDeque": 1,
+    "refreshSet": 1,
+    "dirtyDeque": 2000,
+    "dirtySet": 0,
+    "variant": "original"
+  },
+  {
+    "stage": "same_position2000_no_demand_1000_ticks",
+    "loaded": 0,
+    "refreshDeque": 1,
+    "refreshSet": 1,
+    "dirtyDeque": 2000,
+    "dirtySet": 0,
+    "variant": "original"
+  },
+  {
+    "stage": "same_position2000_with_demand_100_ticks",
+    "loaded": 0,
+    "refreshDeque": 0,
+    "refreshSet": 0,
+    "dirtyDeque": 0,
+    "dirtySet": 0,
+    "variant": "original"
+  },
+  {
+    "stage": "unique2000_after_unload",
+    "loaded": 0,
+    "refreshDeque": 2000,
+    "refreshSet": 2000,
+    "dirtyDeque": 2000,
+    "dirtySet": 0,
+    "variant": "latest"
+  },
+  {
+    "stage": "unique2000_no_demand_1000_ticks",
+    "loaded": 0,
+    "refreshDeque": 2000,
+    "refreshSet": 2000,
+    "dirtyDeque": 2000,
+    "dirtySet": 0,
+    "variant": "latest"
+  },
+  {
+    "stage": "unique2000_with_demand_100_ticks",
+    "loaded": 0,
+    "refreshDeque": 0,
+    "refreshSet": 0,
+    "dirtyDeque": 0,
+    "dirtySet": 0,
+    "variant": "latest"
+  },
+  {
+    "stage": "same_position2000_after_unload",
+    "loaded": 0,
+    "refreshDeque": 1,
+    "refreshSet": 1,
+    "dirtyDeque": 2000,
+    "dirtySet": 0,
+    "variant": "latest"
+  },
+  {
+    "stage": "same_position2000_no_demand_1000_ticks",
+    "loaded": 0,
+    "refreshDeque": 1,
+    "refreshSet": 1,
+    "dirtyDeque": 2000,
+    "dirtySet": 0,
+    "variant": "latest"
+  },
+  {
+    "stage": "same_position2000_with_demand_100_ticks",
+    "loaded": 0,
+    "refreshDeque": 0,
+    "refreshSet": 0,
+    "dirtyDeque": 0,
+    "dirtySet": 0,
+    "variant": "latest"
+  }
+]

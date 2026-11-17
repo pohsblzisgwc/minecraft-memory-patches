@@ -13,8 +13,12 @@
 !/dist/patch-map-player-leak-1.0.0.jar
 !/dist/patch-tis-projectile-threadlocal-1.0.1.jar
 !/docs/ANALYSIS.zh-CN.md
+!/docs/CONFLUX_RECHECK.zh-CN.md
 !/docs/PRIVACY.zh-CN.md
 !/docs/VALIDATION.zh-CN.md
+!/docs/benchmarks/conflux-allocation.json
+!/docs/benchmarks/conflux-class-hashes.json
+!/docs/benchmarks/conflux-retention.json
 !/patch-confluxmap-chunkstate-churn/build.sh
 !/patch-confluxmap-chunkstate-churn/src/main/java/dev/mempatch/confluxchurn/ChunkStateDimBucket.java
 !/patch-confluxmap-chunkstate-churn/src/main/java/dev/mempatch/confluxchurn/ChunkStateWatchEntry.java

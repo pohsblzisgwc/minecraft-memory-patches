@@ -4,7 +4,7 @@
   "files": [
     {
       "path": ".gitignore",
-      "sha256": "9fdae4ee3622441e30b374b987c022fce75ebb6fca41b5f72874065dd594543e"
+      "sha256": "b1c40387dc0513d9d6ff7e1f1221a0830b79f266e29395c54c2f8775f7a162b4"
     },
     {
       "path": "LICENSE",
@@ -12,7 +12,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "563d6f83b501a19f0cafc38643079a7081339a6f4bc93c11d9273dedacf17978"
+      "sha256": "df01e383008ab05ec3b0bd965469c1eee2723a5a5ddca7344dd49a26a0d45ef0"
     },
     {
       "path": "SHA256SUMS",
@@ -44,15 +44,31 @@
     },
     {
       "path": "docs/ANALYSIS.zh-CN.md",
-      "sha256": "027c60c700974a9ce8dcef9b6bb13a91167bc9113e86f33480e17b35da380772"
+      "sha256": "558b49d4e836e9eeb4e4f622f7152117b439db44dc6d8490d9d705b6370cb998"
+    },
+    {
+      "path": "docs/CONFLUX_RECHECK.zh-CN.md",
+      "sha256": "13aa3e737824b510eacb83ae60c0759d7a5d92c3812b866d5d25f7725102bf01"
     },
     {
       "path": "docs/PRIVACY.zh-CN.md",
-      "sha256": "673761103f77922062b41750d7669d1c29c9478a927e34ac7a01428796ac265e"
+      "sha256": "4b158becf54e41472e38f05e3aa0ebb3f31919de65203e33483373187355f265"
     },
     {
       "path": "docs/VALIDATION.zh-CN.md",
-      "sha256": "6ada4214b6252116d0e91d89ad40f24eed16ca30de0875b66c4fdc03eea8f433"
+      "sha256": "6e5d0abb77da01c7ab99892099e7b5b4b80fd7cb41cfc5bea9d6102717852426"
+    },
+    {
+      "path": "docs/benchmarks/conflux-allocation.json",
+      "sha256": "fa54f001614cad46453d0726dfdbeb727c0d98533a92e90a8406bf2d7095d9e8"
+    },
+    {
+      "path": "docs/benchmarks/conflux-class-hashes.json",
+      "sha256": "8b8080388003ea77620ea2af91e3331836fa97632d254e1241502774323e2e9e"
+    },
+    {
+      "path": "docs/benchmarks/conflux-retention.json",
+      "sha256": "a36bc249cf966423a08fb3861cd44fb0b62f3df6625e104b2d2f1ea02cddbf7f"
     },
     {
       "path": "patch-confluxmap-chunkstate-churn/build.sh",

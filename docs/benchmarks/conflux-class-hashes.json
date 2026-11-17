@@ -1,0 +1,23 @@
+{
+  "0.1.12": {
+    "server/ChunkLoadStateService": "19b8cddc667fbb82a477d2e844cd59cb6c53470d1d24e1ada9075b7c6099c78c",
+    "server/LiveDirtyQueue": "222b3b0927a24279c20ae25089bd2fb5bf3c6718736c8bc01d4231b664ff54ee",
+    "server/LiveChunkSummaryTracker": "33e9fb402ff4fe45464fd6add3ad4ffe2912a77f3b8611e591e17863e8148720",
+    "core/net/ChunkLoadStatePublisher": "d68ced83f56ab74e3448d5fe8f4ebbaead5d222b0842741e4eaf335c0e39e9d3",
+    "server/ServerConfig": "1e75bd68a6a5486bd000efc65567dadc61e86de55db1ba0244165b04df62e2ed"
+  },
+  "0.1.16": {
+    "server/ChunkLoadStateService": "19b8cddc667fbb82a477d2e844cd59cb6c53470d1d24e1ada9075b7c6099c78c",
+    "server/LiveDirtyQueue": "222b3b0927a24279c20ae25089bd2fb5bf3c6718736c8bc01d4231b664ff54ee",
+    "server/LiveChunkSummaryTracker": "95e1ce45e132d0952494ad53fd5f75d0b6f0424d2da0fa7e0deef7c8cb39d1c5",
+    "core/net/ChunkLoadStatePublisher": "d68ced83f56ab74e3448d5fe8f4ebbaead5d222b0842741e4eaf335c0e39e9d3",
+    "server/ServerConfig": "54934e70fd82065a38088e6b0322becb5e6f916a7e486fd6f1cf82b892ccafbe"
+  },
+  "0.1.17-rc.1": {
+    "server/ChunkLoadStateService": "19b8cddc667fbb82a477d2e844cd59cb6c53470d1d24e1ada9075b7c6099c78c",
+    "server/LiveDirtyQueue": "222b3b0927a24279c20ae25089bd2fb5bf3c6718736c8bc01d4231b664ff54ee",
+    "server/LiveChunkSummaryTracker": "95e1ce45e132d0952494ad53fd5f75d0b6f0424d2da0fa7e0deef7c8cb39d1c5",
+    "core/net/ChunkLoadStatePublisher": "d68ced83f56ab74e3448d5fe8f4ebbaead5d222b0842741e4eaf335c0e39e9d3",
+    "server/ServerConfig": "0d2ed2a268435a46f80a3c46708a7e72263c9b1903c91a386b71652dd470423b"
+  }
+}
